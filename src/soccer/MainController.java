@@ -18,7 +18,7 @@ public class MainController {
     @RequestMapping({"/", "/index"})
     public String showHomePage(Model model, HttpServletRequest request) {
  
-        model.addAttribute("author", "Webipedia HD");
+        model.addAttribute("author", "Webipedia HD")
         model.addAttribute("website", "http://webipedia.es");
         
         return "home";
